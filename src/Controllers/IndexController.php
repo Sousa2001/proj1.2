@@ -1,9 +1,9 @@
 <?php
 
-namespace APP\Controllers;
-use APP\Request;
-use APP\Controller;
-use APP\Session;
+namespace App\Controllers;
+use App\Request;
+use App\Controller;
+use App\Session;
 
 final class IndexController extends Controller{
 

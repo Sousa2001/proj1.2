@@ -1,11 +1,11 @@
 <?php
 
-namespace APP\Controllers;
-use APP\View;
-use APP\Model;
-use APP\Controller;
-use APP\Request;
-use APP\Session;
+namespace App\Controllers;
+use App\View;
+use App\Model;
+use App\Controller;
+use App\Request;
+use App\Session;
 
 
 class UserController extends Controller implements View,Model{

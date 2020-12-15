@@ -1,12 +1,12 @@
 <?php
 
-namespace APP\Controllers;
-use APP\View;
-use APP\Model;
-use APP\Controller;
-use APP\Request;
-use APP\Session;
-use APP\DB;
+namespace App\Controllers;
+use App\View;
+use App\Model;
+use App\Controller;
+use App\Request;
+use App\Session;
+use App\DB;
 
 class LoginController extends Controller implements View,Model{
     
@@ -25,7 +25,7 @@ class LoginController extends Controller implements View,Model{
         $logeable=$db->login($db, $uname, $passwd);
         if($logeable==True){
         $_SESSION['uname']=$uname;
-        Header('Location: /user');
+        Header('Location:'.BASE.'user');
            
         }else{
             echo "Error";

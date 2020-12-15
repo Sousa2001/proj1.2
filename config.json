@@ -4,13 +4,17 @@
         "dbhost":"localhost",
         "dbname":"proj1",
         "dbuser":"proj1",
-        "dbpass":"linuxlinux"
+        "dbpass":"linuxlinux",
+        "web":"http://localhost:4040/",
+        "root":"/"
     },
     "dbconf_pro":{
         "driver":"mysql",
         "dbhost":"SoOs.cesnuria.com",
-        "dbname":"SoOs_proj1.2",
-        "dbuser":"SoOs_proj1.2",
-        "dbpass":"Sousa2001"
+        "dbname":"SoOs_proj1",
+        "dbuser":"SoOs_proj1",
+        "dbpass":"Sousa2001",
+        "web":"/m7/proj1.2/",
+        "root":"/m7/proj1.2/"
     }
 }
